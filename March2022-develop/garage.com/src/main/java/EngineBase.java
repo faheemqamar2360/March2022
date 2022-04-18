@@ -17,4 +17,7 @@ public abstract class EngineBase implements IEngine {
 	public String testEngine(String pass) {
 		return pass;
 	}
+	public String testEngine1(String pass) {
+		return pass;
+	}
 }
