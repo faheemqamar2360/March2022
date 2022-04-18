@@ -6,4 +6,5 @@ public class SmallEngine extends EngineBase {
 		
 	}
 	testEngine("this engine pass");
+	testEngine1("this engine1 pass");
 }
