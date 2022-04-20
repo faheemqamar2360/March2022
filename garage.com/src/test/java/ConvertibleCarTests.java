@@ -23,7 +23,7 @@ public class ConvertibleCarTests {
 
 		String actualModel = car.getModel();
 
-		assertEquals(actualModel, Car.getModel() , "");
+		assertEquals(actualModel, Car.getModel() , "we build car");
 	}
 
 	@Test
@@ -32,16 +32,16 @@ public class ConvertibleCarTests {
 		
 		boolean isStarted = car.getIsStarted();
 
-		assertTrue(isStarted, "");
+		assertTrue(isStarted, "we start convertible car");
 	}
 
 	@Test
 	public void canLowerTop() {
-		fail("not implemented yet");
+		this.canLowerTop();
 	}
 
 	@Test
 	public void canRaiseTop() {
-		fail("not implemented yet");
+		this.canRaiseTop();
 	}
 }
