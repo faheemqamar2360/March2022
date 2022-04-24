@@ -37,7 +37,7 @@ public class ConvertibleCarTests {
 
 	@Test
 	public void canLowerTop() {
-		this.canLowerTop();
+	this.canLowerTop();
 	}
 
 	@Test
