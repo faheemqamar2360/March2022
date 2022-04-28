@@ -1,0 +1,31 @@
+1.Page:/text-box. Write a selector that will return the ‘Full Name’ textboxusing the ID attribute. Hint: This element has the ‘input’ tag.
+
+input[id='userName']
+
+2.Page: /buttons. Write a selector that will return all 3 buttons shown below.
+
+button[id='doubleClickBtn']
+button[id='rightClickBtn']
+button[id='L2NbR']
+another way 
+button[type*='button'][class='btn btn-primary']
+
+3.Page:/buttons. Write a selector that will return the span element in the footer.
+
+//span[text()='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.']
+
+4.Page:/menu.Write a selector that will return the 3 listitem elementsin the unordered list.
+
+ul[id='nav']
+
+5.Page: /select-menu. Write a selector that will get the option elementwhere value = 4.
+
+option[value='4']
+
+6.Page: /slider. Write the JavaScript to getthe value forthe element with id=sliderValue.
+
+document.getElementById('sliderValue')
+
+7.Page: /text-box. Write the JavaScript to seet the value for the element with id=username.
+
+document.getElementById('userName')
